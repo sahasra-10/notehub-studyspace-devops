@@ -1,0 +1,12 @@
+button{
+    background: linear-gradient(to right, #471666, #550ec8);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3f2a61;
+}

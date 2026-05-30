@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security | BCA Semester 1 - NoteHub</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+ <style>
+        .subject-section {
+            margin-bottom: 4rem;
+        }
+
+        .subject-heading {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #667eea;
+            margin: 2rem 0 1.5rem;
+            padding: 1rem;
+            background: linear-gradient(135deg, #f8f9ff 0%, #e8ebff 100%);
+            border-left: 5px solid #667eea;
+            border-radius: 8px;
+        }
+
+        .topic-content ul {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+        }
+
+        .topic-content ul li {
+            position: relative;
+            padding: 12px 16px 12px 45px;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+            border-left: 4px solid #4facfe;
+            border-radius: 8px;
+            color: #555;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .topic-content ul li:hover {
+            background: linear-gradient(135deg, #e8f4ff 0%, #f8f9ff 100%);
+            border-left-color: #667eea;
+            transform: translateX(5px);
+            box-shadow: 0 4px 10px rgba(102, 126, 234, 0.15);
+        }
+
+        .topic-content ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 22px;
+            height: 22px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .topic-content > p {
+            background: #fff9e6;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .topic-content p strong {
+            color: #667eea;
+            font-size: 1.05rem;
+            display: block;
+            margin-bottom: 8px;
+        }
+    </style>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <span class="logo-icon">📚</span>
+                    <span class="logo-text">NoteHub</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/school.html" >School</a></li>
+                    <li><a href="/college.html" class="active">College</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="/index.html">Home</a> / 
+            <a href="/college.html">College</a> /  
+            <a href="/bca.html">BCA</a> /  
+            <a href="/subjects/college/bca/sem1/sem1_bca.html">Semester 1</a> / 
+            <span>Cyber Security</span>
+        </div>
+    </div>
+
+    <section class="content-section">
+        <div class="container">
+            <h1 class="page-title">Cyber Security</h1>
+            <p class="page-description">Complete Unit-wise notes following Syllabus</p>
+
+            <div class="topics-list">
+                <details class="topic-item">
+                    <summary>Unit 1: Introduction to Cybersecurity</summary>
+                    <div class="topic-content">
+                        <p>Introduction to Cybersecurity, Threats, Attacks, Network and OS Security, Cryptography, Web Security, and Incident Response.</p>
+                        <p><strong>Key Topics:</strong></p>
+                        <ul>
+                            <li>Definition and Importance of Cybersecurity</li>
+                            <li>Common Cyber Threats and Attacks</li>
+                            <li>Network Security Fundamentals: Network Architecture, Protocols, Firewalls, IDS, VPN</li>
+                            <li>Operating System Security: Access Control, Vulnerabilities, Patch Management</li>
+                            <li>Cryptography & Encryption: Symmetric, Asymmetric, PKI, Digital Certificates</li>
+                            <li>Web Application Security: SQL Injection, XSS, WAFs, Secure Coding</li>
+                            <li>Incident Response & Disaster Recovery: Detection, Containment, Continuity Planning</li>
+                        </ul>
+                        <a href="#" class="btn-secondary">View Complete Notes</a>
+                    </div>
+                </details>
+
+                <details class="topic-item">
+                    <summary>Unit 2: Advanced Cybersecurity Concepts</summary>
+                    <div class="topic-content">
+                        <p>Advanced Cyber Defense Methods, Threat Hunting, Hardening, Ethical Hacking, Cloud & Mobile Security.</p>
+                        <p><strong>Key Topics:</strong></p>
+                        <ul>
+                            <li>Threat Intelligence & Cyber Threat Hunting: SIEM Tools, Threat Analysis</li>
+                            <li>Network & System Hardening: Defense-in-Depth, Secure Configurations, Security Baselines</li>
+                            <li>Ethical Hacking & Penetration Testing: Reconnaissance, Vulnerability Assessment, Exploitation, Reporting</li>
+                            <li>Cloud Security: IaaS, PaaS, SaaS, IAM, Cloud Security Best Practices</li>
+                            <li>Mobile & IoT Security: Risks, Secure Coding, Securing IoT Devices & Networks</li>
+                            <li>Legal & Ethical Aspects of Cybersecurity</li>
+                        </ul>
+                        <a href="#" class="btn-secondary">View Complete Notes</a>
+                    </div>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-credit">Made with 💙 by Gaurav, Nikhil & Devansh</p>
+            <p class="footer-copyright">© 2025 NoteHub StudySpace</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">↑</button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
